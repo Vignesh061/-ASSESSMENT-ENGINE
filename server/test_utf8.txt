@@ -1,0 +1,85 @@
+﻿Testing evaluation...
+node.exe : Error in 
+renderAndCapture: 
+Error 
+[ReferenceError]: 
+__name is not defined
+At line:1 char:1
++ & "P:\Program 
+Files\nodejs/node.exe" 
+"P:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Error in rend   
+ er... is not defin    
+ed:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    at evaluate 
+(evaluate at 
+renderAndCapture (file:
+///C:/Users/vasan/OneDr
+ive/Desktop/correction/
+server/src/services/eva
+luator.ts:12:611), 
+<anonymous>:0:873)
+    at ExecutionContext
+.#evaluate (C:\Users\va
+san\OneDrive\Desktop\co
+rrection\server\node_mo
+dules\puppeteer-core\sr
+c\cdp\ExecutionContext.
+ts:449:13)
+    at async ExecutionC
+ontext.evaluate (C:\Use
+rs\vasan\OneDrive\Deskt
+op\correction\server\no
+de_modules\puppeteer-co
+re\src\cdp\ExecutionCon
+text.ts:292:12)
+    at async 
+IsolatedWorld.evaluate 
+(C:\Users\vasan\OneDriv
+e\Desktop\correction\se
+rver\node_modules\puppe
+teer-core\src\cdp\Isola
+tedWorld.ts:196:12)
+    at async 
+CdpFrame.evaluate (C:\U
+sers\vasan\OneDrive\Des
+ktop\correction\server\
+node_modules\puppeteer-
+core\src\api\Frame.ts:4
+74:12)
+    at async 
+CdpPage.evaluate (C:\Us
+ers\vasan\OneDrive\Desk
+top\correction\server\n
+ode_modules\puppeteer-c
+ore\src\api\Page.ts:224
+1:12)
+    at async 
+renderAndCapture (C:\Us
+ers\vasan\OneDrive\Desk
+top\correction\server\s
+rc\services\evaluator.t
+s:104:21)
+    at async 
+evaluateSubmission (C:\
+Users\vasan\OneDrive\De
+sktop\correction\server
+\src\services\evaluator
+.ts:635:25)
+    at async main (C:\U
+sers\vasan\OneDrive\Des
+ktop\correction\server\
+test_puppeteer.ts:7:24)

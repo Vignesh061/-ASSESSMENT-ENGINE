@@ -1,0 +1,4 @@
+{
+  "message": "Puppeteer error: __name is not defined",
+  "stack": "Error: Puppeteer error: __name is not defined\n    at renderAndCapture (C:\\Users\\vasan\\OneDrive\\Desktop\\correction\\server\\src\\services\\evaluator.ts:191:11)\n    at async evaluateSubmission (C:\\Users\\vasan\\OneDrive\\Desktop\\correction\\server\\src\\services\\evaluator.ts:635:25)\n    at async main (C:\\Users\\vasan\\OneDrive\\Desktop\\correction\\server\\test_puppeteer.ts:7:24)"
+}
